@@ -4,7 +4,7 @@ export default function App() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-blue-50 to-purple-100 flex flex-col items-center justify-center px-4 py-10 text-center space-y-12">
       <section className="space-y-4">
-        <h1 className="text-5xl font-extrabold text-gray-800 drop-shadow">Kanishk Chauhan</h1>
+        <h1 className="text-5xl font-extrabold text-gray-800 drop-shadow">Kanishk Singh Chauhan</h1>
         <p className="text-xl text-gray-600">Information Technology Student | Aspiring Data Analyst</p>
       </section>
 
