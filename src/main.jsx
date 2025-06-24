@@ -1,10 +1,13 @@
-import React from 'react'
-import ReactDOM from 'react-dom/client'
-import './index.css'
-import App from './App'
+import React from "react";
+import ReactDOM from "react-dom/client";
+import { BrowserRouter } from "react-router-dom";
+import App from "./App.jsx"; // Import the main App component
+import "./index.css";
 
-ReactDOM.createRoot(document.getElementById('root')).render(
+ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-)
+    <BrowserRouter>
+      <App /> {/* App contains Navbar + Routes */}
+    </BrowserRouter>
+  </React.StrictMode>
+);
