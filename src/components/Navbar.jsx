@@ -7,7 +7,7 @@ export default function Navbar() {
   return (
     <nav className="bg-white shadow px-4 py-3 fixed top-0 left-0 w-full z-50">
       <div className="flex justify-between items-center max-w-6xl mx-auto">
-        <h1 className="text-xl font-bold text-gray-800">Kanishk</h1>
+        <h1 className="text-xl font-bold text-gray-800">Kanishk's Portfolio</h1>
 
         {/* Hamburger Menu Button */}
         <button
